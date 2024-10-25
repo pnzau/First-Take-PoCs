@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      id="carouselWrapper"
+      class="w-full px-8 pt-4 gap-2 grid grid-cols-4"
+    ></div>
+    <div class="w-full flex items-center justify-center py-2">
+      <button
+        class="bg-blue-500 text-white py-2 px-4 rounded m-2"
+        id="prevButton"
+      >
+        Previous
+      </button>
+      <button
+        class="bg-blue-500 text-white py-2 px-4 rounded m-2"
+        id="nextButton"
+      >
+        Next
+      </button>
+    </div>
+    <script type="module" src="carousel.js"></script>
+  </body>
+</html>

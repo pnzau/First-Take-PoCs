@@ -1,0 +1,21 @@
+{
+  "name": "carousels",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "start": "tsc carousel.ts --outFile carousel.js && live-server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "transpile": "tsc carousel.ts --outFile carousel.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
